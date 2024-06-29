@@ -1,3 +1,14 @@
 {
-  "extends": "react-app"
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "extends": "react-app",
+  "plugins": ["@stylistic"],
+  "rules": {
+    "@stylistic/jsx-curly-brace-presence": [
+      2,
+      {
+        "props": "always",
+        "propElementValues": "always"
+      }
+    ]
+  }
 }

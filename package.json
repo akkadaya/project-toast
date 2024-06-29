@@ -25,5 +25,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "staticFiles": {
     "staticPath": "assets"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@stylistic/eslint-plugin": "^2.3.0"
   }
 }

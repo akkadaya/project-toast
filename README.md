@@ -200,7 +200,7 @@ Let's try something. Pretend that you don't have a mouse or trackpad. Using the 
 
 **How do I do this?** You'll use the “Tab” key to move focus between interactive elements. You can hold "Shift" and hit "Tab" to move backwards. In order to dismiss the toasts, you'll need to keep tabbing until your focus reaches the close button. Then, hit "Enter".
 
-> NOTE: If you're using Safari or Firefox on MacOS, you'll need to toggle a system setting to allow tabs to focus on buttons. Read more here: https://www.scottohara.me/blog/2014/10/03/link-tabbing-firefox-osx.html
+> NOTE: If you're using Safari or Firefox on MacOS, you'll need to toggle a system setting to allow tabs to focus on buttons. Read more here: <https://www.scottohara.me/blog/2014/10/03/link-tabbing-firefox-osx.html>
 
 ---
 
@@ -288,7 +288,7 @@ There are lots of different ways to tackle this, and there's no right or wrong a
 ```js
 useEscapeKey(() => {
   // Code to dismiss all toasts
-});
+})
 ```
 
 **This is an open-ended exercise.** Feel free to experiment with different APIs and see what works best for you!
